@@ -62,23 +62,46 @@ nav button{
 .dateButton.active{background:#e2f1e6}
 .dayname{font-size:11px;color:#85948a}
 .date{font-size:16px;font-weight:bold;margin-top:6px}
+
+/* 카테고리 버튼 */
 .cat{
- width:100%;display:block;border:2px solid transparent;
- border-radius:7px;padding:8px 0;
- margin:4px 0;font-size:10px;font-weight:bold;
- overflow-wrap:anywhere
+ width:100%;display:block;
+ border:2px solid transparent;
+ border-radius:7px;
+ padding:8px 0;margin:4px 0;
+ font-size:10px;font-weight:bold;
+ overflow-wrap:anywhere;
+ transition:
+  background-color .15s ease,
+  transform .12s ease,
+  box-shadow .15s ease;
+ box-shadow:0 3px 0 rgba(0,0,0,.12);
+ -webkit-tap-highlight-color:transparent;
 }
-.cat.active{border-color:currentColor}
+.cat:active{
+ transform:translateY(2px);
+ box-shadow:0 1px 0 rgba(0,0,0,.12);
+}
+.cat.active{
+ color:white;
+ transform:translateY(2px);
+ box-shadow:inset 0 2px 5px rgba(0,0,0,.14);
+ border-color:transparent;
+}
 .beauty{background:#fce1eb;color:#a34466}
 .fashion{background:#e9def9;color:#744b9c}
 .tech{background:#dceafa;color:#315e96}
 .goods{background:#fff0cb;color:#94631b}
 .life{background:#e0f0df;color:#31744c}
 .food{background:#ffe4d5;color:#98532f}
-.item{
- border-bottom:1px solid #edf0ea;
- padding:17px 0
-}
+.beauty.active{background:#c94d77}
+.fashion.active{background:#8450b3}
+.tech.active{background:#4279b7}
+.goods.active{background:#c38a2b}
+.life.active{background:#448a58}
+.food.active{background:#d77d4a}
+
+.item{border-bottom:1px solid #edf0ea;padding:17px 0}
 .item:last-child{border:0}
 .item h3{margin:6px 0;font-size:17px}
 .item p{font-size:13px;line-height:1.7;color:#647469}
@@ -106,6 +129,10 @@ footer{
  .day{padding:4px 1px;min-height:255px}
  .cat{font-size:9px;padding:8px 0}
  .date{font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ .cat{transition:none}
 }
 </style>
 </head>
@@ -147,7 +174,6 @@ footer{
 <footer>
 © 야무진 픽노트 · 방문 전 공식 행사 정보를 확인하세요.
 </footer>
-
 </main>
 
 <script>
@@ -162,7 +188,7 @@ const categories={
  food:{name:"푸드",css:"food"}
 };
 
-// 테스트 행사: 실제 행사 정보가 아닙니다.
+// 기능 확인용 가상 행사 2건
 const events=[
  {
   name:"뷰티 팝업 테스트",
@@ -190,6 +216,7 @@ today.setHours(12,0,0,0);
 let selectedDate=new Date(today);
 let selectedCategory=null;
 let weekStart=monday(today);
+let scrollTimer=null;
 
 const $=id=>document.getElementById(id);
 
@@ -227,8 +254,10 @@ function syncSelects(){
  y.innerHTML="";
  m.innerHTML="";
 
- for(let year=today.getFullYear()-2;
-     year<=today.getFullYear()+5;year++){
+ const minYear=Math.min(today.getFullYear()-2,selectedDate.getFullYear());
+ const maxYear=Math.max(today.getFullYear()+5,selectedDate.getFullYear());
+
+ for(let year=minYear;year<=maxYear;year++){
   const o=document.createElement("option");
   o.value=year;
   o.textContent=year+"년";
@@ -274,6 +303,9 @@ function render(){
 
   const dateButton=document.createElement("button");
   dateButton.className="dateButton";
+  dateButton.setAttribute(
+   "aria-label",date+" 전체 팝업 보기"
+  );
 
   if(date===key(selectedDate) &&
      selectedCategory===null){
@@ -292,10 +324,7 @@ function render(){
   dateButton.append(name,number);
 
   dateButton.addEventListener("click",()=>{
-   selectedDate=new Date(d);
-   selectedCategory=null;
-   render();
-   show(date,null);
+   selectEvent(d,null);
   });
 
   cell.append(dateButton);
@@ -304,17 +333,20 @@ function render(){
    const b=document.createElement("button");
    b.className="cat "+categories[id].css;
    b.textContent=categories[id].name;
+   b.setAttribute(
+    "aria-label",date+" "+categories[id].name+" 팝업 보기"
+   );
 
    if(date===key(selectedDate) &&
       selectedCategory===id){
     b.classList.add("active");
+    b.setAttribute("aria-pressed","true");
+   }else{
+    b.setAttribute("aria-pressed","false");
    }
 
    b.addEventListener("click",()=>{
-    selectedDate=new Date(d);
-    selectedCategory=id;
-    render();
-    show(date,id);
+    selectEvent(d,id);
    });
 
    cell.append(b);
@@ -322,6 +354,23 @@ function render(){
 
   grid.append(cell);
  }
+}
+
+function selectEvent(d,category){
+ if(scrollTimer!==null){
+  clearTimeout(scrollTimer);
+  scrollTimer=null;
+ }
+
+ selectedDate=new Date(d);
+ selectedCategory=category;
+ render();
+
+ // 선택 상태를 먼저 보여주고 상세 영역으로 이동
+ scrollTimer=setTimeout(()=>{
+  show(key(d),category);
+  scrollTimer=null;
+ },350);
 }
 
 function show(date,category){
@@ -349,13 +398,11 @@ function show(date,category){
   h.textContent=e.name;
   item.append(h);
 
-  const lines=[
+  for(const line of [
    "📍 "+e.place,
    "📅 "+e.start+" ~ "+e.end,
    e.description
-  ];
-
-  for(const line of lines){
+  ]){
    const p=document.createElement("p");
    p.textContent=line;
    item.append(p);
@@ -380,7 +427,15 @@ function show(date,category){
  });
 }
 
+function cancelPending(){
+ if(scrollTimer!==null){
+  clearTimeout(scrollTimer);
+  scrollTimer=null;
+ }
+}
+
 function moveWeek(direction){
+ cancelPending();
  weekStart=addDays(weekStart,direction*7);
  selectedDate=new Date(weekStart);
  selectedCategory=null;
@@ -396,6 +451,7 @@ $("next").addEventListener("click",()=>{
 });
 
 function jump(){
+ cancelPending();
  selectedDate=new Date(
   Number($("yearSelect").value),
   Number($("monthSelect").value),
@@ -410,6 +466,7 @@ $("yearSelect").addEventListener("change",jump);
 $("monthSelect").addEventListener("change",jump);
 
 $("goToday").addEventListener("click",()=>{
+ cancelPending();
  selectedDate=new Date(today);
  selectedCategory=null;
  weekStart=monday(today);

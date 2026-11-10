@@ -1,1 +1,186 @@
 
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>야무진 픽노트 | 팝업 캘린더</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f6f8f3;color:#263d30;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif}
+main{max-width:720px;margin:auto;padding:20px 14px 50px}
+.hero{background:#dcebd5;border-radius:24px;padding:25px 20px;text-align:center}
+.mascot{font-size:52px}
+.hero h1{margin:8px 0;font-size:25px}
+.hero p{font-size:14px;color:#607562}
+.open{background:#347c51;color:white;border:0;border-radius:16px;padding:15px 22px;font-weight:bold;font-size:16px;width:100%;margin-top:15px;cursor:pointer}
+.panel{background:white;border-radius:22px;padding:17px;margin-top:20px;box-shadow:0 3px 18px #233d3010}
+nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}
+nav button{background:#e7f0e3;border:0;border-radius:12px;padding:10px 14px;font-size:18px;color:#2e6845}
+#range{font-weight:bold;text-align:center}
+.week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}
+.day{border:1px solid #e6eae3;border-radius:12px;min-height:125px;padding:7px 3px;text-align:center}
+.day.today{border:2px solid #439263}
+.day.outside{opacity:.3}
+.dayname{font-size:11px;color:#829086}
+.date{font-size:15px;font-weight:bold;margin:8px 0}
+.cat{display:block;width:100%;border:0;border-radius:7px;padding:7px 2px;margin:4px 0;font-size:10px;font-weight:bold;cursor:pointer;overflow-wrap:anywhere}
+.beauty{background:#ffe1ea;color:#963e61}
+.fashion{background:#e7ddfa;color:#69449c}
+.tech{background:#dceafa;color:#315e96}
+.goods{background:#fff0cb;color:#93631b}
+.life{background:#ddf0e1;color:#31744c}
+.food{background:#ffe4d5;color:#98532f}
+.item{padding:15px 0;border-bottom:1px solid #edf0ea}
+.item:last-child{border:0}
+.item h3{margin:6px 0;font-size:17px}
+.item p{font-size:13px;color:#68776c;line-height:1.6}
+.link{display:inline-block;background:#39825a;color:white;text-decoration:none;padding:11px 15px;border-radius:12px;font-size:13px;font-weight:bold}
+.empty{font-size:14px;color:#829086;text-align:center;padding:20px}
+small{color:#859188}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<div class="mascot">🐶🌿</div>
+<h1>야무진 팝업 캘린더</h1>
+<p>이번 주 팝업, 야무지게 찾아봐요!</p>
+<button class="open" onclick="document.getElementById('calendar').scrollIntoView({behavior:'smooth'})">🌿 팝업 캘린더 열기 →</button>
+</section>
+
+<section class="panel" id="calendar">
+<nav>
+<button onclick="move(-1)">‹</button>
+<div id="range"></div>
+<button onclick="move(1)">›</button>
+</nav>
+<div class="week" id="week"></div>
+<p style="font-size:12px;color:#819084;text-align:center">카테고리를 누르면 해당 날짜의 팝업을 확인할 수 있어요.</p>
+</section>
+
+<section class="panel">
+<h2 id="selected">팝업스토어 안내</h2>
+<div id="results" class="empty">달력의 카테고리를 선택해 주세요.</div>
+</section>
+<p style="text-align:center;margin-top:24px"><small>© 야무진 픽노트 · 행사 정보는 공식 안내를 확인하세요.</small></p>
+</main>
+
+<script>
+const categories={
+ beauty:["뷰티","beauty"],
+ fashion:["패션","fashion"],
+ tech:["가전·IT","tech"],
+ goods:["캐릭터","goods"],
+ life:["라이프","life"],
+ food:["푸드","food"]
+};
+
+// 실제 행사 등록 예시.
+// 공식 행사 링크와 날짜를 확인한 후 아래 배열에 추가하세요.
+const events=[
+ {
+  name:"샘플 팝업스토어",
+  category:"beauty",
+  start:"2026-11-10",
+  end:"2026-11-20",
+  place:"서울 · 샘플 장소",
+  description:"화면 테스트용 가상 행사입니다.",
+  url:""
+ }
+];
+
+const now=new Date();
+let current=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+const month=now.getMonth();
+const year=now.getFullYear();
+const weekdays=["일","월","화","수","목","금","토"];
+
+function dateKey(d){
+ const y=d.getFullYear();
+ const m=String(d.getMonth()+1).padStart(2,"0");
+ const day=String(d.getDate()).padStart(2,"0");
+ return `${y}-${m}-${day}`;
+}
+function monday(d){
+ const x=new Date(d);
+ x.setDate(x.getDate()-(x.getDay()+6)%7);
+ return x;
+}
+function active(date,category){
+ return events.filter(e=>e.start<=date&&e.end>=date&&(!category||e.category===category));
+}
+function render(){
+ const start=monday(current);
+ const end=new Date(start);
+ end.setDate(end.getDate()+6);
+ document.getElementById("range").textContent=
+ `${start.getMonth()+1}/${start.getDate()} ~ ${end.getMonth()+1}/${end.getDate()}`;
+ const container=document.getElementById("week");
+ container.innerHTML="";
+ for(let i=0;i<7;i++){
+  const d=new Date(start);
+  d.setDate(start.getDate()+i);
+  const key=dateKey(d);
+  const cell=document.createElement("div");
+  cell.className="day"+(key===dateKey(now)?" today":"")+(d.getMonth()!==month?" outside":"");
+  cell.innerHTML=`<div class="dayname">${weekdays[d.getDay()]}</div><div class="date">${d.getDate()}</div>`;
+  if(d.getMonth()===month){
+   Object.entries(categories).forEach(([id,info])=>{
+    if(active(key,id).length){
+     const btn=document.createElement("button");
+     btn.className="cat "+info[1];
+     btn.textContent=info[0];
+     btn.onclick=()=>show(key,id);
+     cell.appendChild(btn);
+    }
+   });
+  }
+  container.appendChild(cell);
+ }
+}
+function move(direction){
+ const next=new Date(current);
+ next.setDate(next.getDate()+7*direction);
+ if(next.getFullYear()!==year||next.getMonth()!==month)return;
+ current=next;
+ render();
+}
+function show(date,category){
+ const list=active(date,category);
+ document.getElementById("selected").textContent=
+ `${date.slice(5).replace("-","월 ")}일 · ${categories[category][0]}`;
+ const result=document.getElementById("results");
+ result.className="";
+ result.innerHTML="";
+ list.forEach(e=>{
+  const div=document.createElement("div");
+  div.className="item";
+  const title=document.createElement("h3");
+  title.textContent=e.name;
+  const detail=document.createElement("p");
+  detail.textContent=`📍 ${e.place} | 📅 ${e.start} ~ ${e.end}`;
+  const desc=document.createElement("p");
+  desc.textContent=e.description;
+  div.append(title,detail,desc);
+  if(e.url){
+   const a=document.createElement("a");
+   a.href=e.url;
+   a.target="_blank";
+   a.rel="noopener noreferrer";
+   a.className="link";
+   a.textContent="공식 행사 페이지 보기 ↗";
+   div.appendChild(a);
+  }else{
+   const note=document.createElement("small");
+   note.textContent="공식 링크 미등록";
+   div.appendChild(note);
+  }
+  result.appendChild(div);
+ });
+ document.getElementById("results").scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+render();
+</script>
+</body>
+</html>

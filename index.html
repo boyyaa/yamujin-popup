@@ -3,82 +3,30 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>야무진 픽노트 | 팝업 캘린더</title>
 <style>
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{
- margin:0;
- background:#f6f8f3;
- color:#294234;
- font-family:-apple-system,BlinkMacSystemFont,
- "Apple SD Gothic Neo",sans-serif;
-}
+body{margin:0;background:#f6f8f3;color:#294234;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif}
 main{max-width:760px;margin:auto;padding:16px 14px 50px}
-.hero{
- background:#dcebd5;
- padding:16px;
- border-radius:26px;
-}
-.hero img{
- width:100%;
- display:block;
- border-radius:20px;
- cursor:pointer;
-}
-.panel{
- background:white;
- border-radius:24px;
- padding:18px;
- margin-top:20px;
- box-shadow:0 5px 20px #263d3010;
-}
-nav{
- display:flex;
- align-items:center;
- justify-content:space-between;
- margin-bottom:20px;
-}
-nav button{
- background:#e5efe3;
- border:0;
- border-radius:13px;
- padding:12px 17px;
- color:#34734e;
- font-size:22px;
- cursor:pointer;
-}
-nav button:disabled{opacity:.25}
-#range{font-size:18px;font-weight:800;text-align:center}
-.week{
- display:grid;
- grid-template-columns:repeat(7,minmax(0,1fr));
- gap:5px;
-}
-.day{
- border:1px solid #e2e8e0;
- border-radius:13px;
- min-height:125px;
- padding:8px 3px;
- text-align:center;
-}
-.today{border:2px solid #438d60}
-.outside{opacity:.3}
+.hero{background:#dcebd5;padding:16px;border-radius:26px}
+.hero img{width:100%;display:block;border-radius:20px;cursor:pointer}
+.panel{background:white;border-radius:24px;padding:18px;margin-top:20px;box-shadow:0 5px 20px #263d3010}
+nav{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:16px}
+button{cursor:pointer}
+nav button{background:#e5efe3;border:0;border-radius:13px;padding:10px 16px;color:#34734e;font-size:22px}
+#range{font-size:17px;font-weight:800;text-align:center}
+.monthbar{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:18px}
+.monthbar select{border:1px solid #d5e3d4;background:white;color:#294234;border-radius:9px;padding:8px;font-size:14px}
+.week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}
+.day{border:1px solid #e2e8e0;border-radius:13px;min-height:120px;padding:8px 3px;text-align:center;cursor:pointer;background:white;color:inherit}
+.day.today{border-color:#82ad8d}
+.day.selected{border:2px solid #438d60;background:#f5faf5}
+.day.outside{background:#f7f8f6;color:#a2aca4}
 .dayname{font-size:12px;color:#85948a}
 .date{font-size:16px;font-weight:bold;margin:10px 0}
-.cat{
- width:100%;
- display:block;
- border:0;
- border-radius:8px;
- padding:8px 1px;
- margin:5px 0;
- font-size:11px;
- font-weight:bold;
- cursor:pointer;
- overflow-wrap:anywhere;
-}
+.cat{width:100%;display:block;border:0;border-radius:8px;padding:8px 1px;margin:5px 0;font-size:11px;font-weight:bold;overflow-wrap:anywhere}
 .beauty{background:#fce1eb;color:#a34466}
 .fashion{background:#e9def9;color:#744b9c}
 .tech{background:#dceafa;color:#315e96}
@@ -89,67 +37,46 @@ nav button:disabled{opacity:.25}
 .item:last-child{border:0}
 .item h3{margin:6px 0;font-size:17px}
 .item p{font-size:13px;line-height:1.7;color:#647469}
-.link{
- display:inline-block;
- background:#388456;
- color:white;
- text-decoration:none;
- padding:12px 16px;
- border-radius:12px;
- font-size:13px;
- font-weight:bold;
-}
-.empty{
- text-align:center;
- padding:25px 0;
- color:#89958c;
- font-size:14px;
-}
-.hint{
- text-align:center;
- color:#89958c;
- font-size:12px;
- margin-top:20px;
-}
-footer{
- text-align:center;
- color:#89958c;
- font-size:12px;
- margin-top:30px;
+.link{display:inline-block;background:#388456;color:white;text-decoration:none;padding:12px 16px;border-radius:12px;font-size:13px;font-weight:bold}
+.empty{text-align:center;padding:25px 0;color:#89958c;font-size:14px}
+.hint{text-align:center;color:#89958c;font-size:12px;margin-top:20px}
+footer{text-align:center;color:#89958c;font-size:12px;margin-top:30px}
+@media(max-width:390px){
+.panel{padding:12px}
+.week{gap:3px}
+.day{padding:7px 1px}
+.cat{font-size:10px}
 }
 </style>
 </head>
 <body>
 <main>
-
 <section class="hero">
-<img
- src="66293676-C7C2-4089-8697-06C93391229A.png"
- alt="야무진 팝업 캘린더 보러가기"
- onclick="document.getElementById('calendar').scrollIntoView({behavior:'smooth'})"
->
+<img src="66293676-C7C2-4089-8697-06C93391229A.png"
+alt="야무진 팝업 캘린더 보러가기"
+onclick="document.getElementById('calendar').scrollIntoView({behavior:'smooth'})">
 </section>
 
 <section class="panel" id="calendar">
+<div class="monthbar">
+<select id="yearSelect" aria-label="연도"></select>
+<select id="monthSelect" aria-label="월"></select>
+<button id="goToday" style="border:0;background:#e5efe3;color:#34734e;border-radius:9px;padding:8px 12px;font-size:13px">오늘</button>
+</div>
 <nav>
-<button id="prev" onclick="move(-1)">‹</button>
+<button id="prev" aria-label="이전 주">‹</button>
 <div id="range"></div>
-<button id="next" onclick="move(1)">›</button>
+<button id="next" aria-label="다음 주">›</button>
 </nav>
 <div class="week" id="week"></div>
-<p class="hint">카테고리를 누르면 해당 날짜의 팝업을 확인할 수 있어요.</p>
+<p class="hint">날짜를 누르면 그날의 전체 팝업을, 카테고리를 누르면 해당 분야만 볼 수 있어요.</p>
 </section>
 
 <section class="panel" id="detail">
-<h2 id="selected">팝업스토어 안내</h2>
-<div id="results" class="empty">
-달력의 카테고리를 선택해 주세요.
-</div>
+<h2 id="selectedTitle">팝업스토어 안내</h2>
+<div id="results" class="empty">날짜를 선택해 주세요.</div>
 </section>
-
-<footer>
-© 야무진 픽노트 · 행사 정보는 공식 안내를 확인하세요.
-</footer>
+<footer>© 야무진 픽노트 · 행사 정보는 공식 안내를 확인하세요.</footer>
 </main>
 
 <script>
@@ -164,16 +91,15 @@ const categories={
  food:{name:"푸드",css:"food"}
 };
 
-// 테스트용 행사 데이터
-// 실제 행사 정보는 공식 안내 확인 후 교체
+// 기능 확인용 가상 행사
 const events=[
  {
   name:"뷰티 팝업 테스트",
   category:"beauty",
   start:"2026-11-09",
-  end:"2026-11-15",
-  place:"서울 성수동",
-  description:"달력 기능 확인을 위한 테스트 행사입니다.",
+  end:"2026-11-30",
+  place:"테스트용 가상 장소",
+  description:"달력 기능 확인을 위한 가상 행사입니다.",
   url:"https://www.google.com/search?q=성수동+뷰티+팝업스토어"
  },
  {
@@ -181,163 +107,194 @@ const events=[
   category:"fashion",
   start:"2026-11-13",
   end:"2026-11-15",
-  place:"서울 성수동",
-  description:"패션 카테고리와 외부 링크 이동 테스트입니다.",
+  place:"테스트용 가상 장소",
+  description:"카테고리 및 외부 링크 확인을 위한 가상 행사입니다.",
   url:"https://www.google.com/search?q=성수동+패션+팝업스토어"
  }
 ];
 
 const today=new Date();
-const initialMonth=today.getMonth();
-const initialYear=today.getFullYear();
-let current=new Date(
- initialYear,initialMonth,today.getDate()
-);
-
-const weekdays=["일","월","화","수","목","금","토"];
-
-function dateKey(d){
- const y=d.getFullYear();
- const m=String(d.getMonth()+1).padStart(2,"0");
- const day=String(d.getDate()).padStart(2,"0");
- return y+"-"+m+"-"+day;
-}
+today.setHours(12,0,0,0);
+let selectedDate=new Date(today);
+let weekStart=monday(today);
+const $=id=>document.getElementById(id);
 
 function monday(d){
- const x=new Date(d);
+ const x=new Date(d.getFullYear(),d.getMonth(),d.getDate(),12);
  x.setDate(x.getDate()-(x.getDay()+6)%7);
  return x;
 }
-
-function active(date,category){
+function addDays(d,n){
+ const x=new Date(d);
+ x.setDate(x.getDate()+n);
+ return x;
+}
+function key(d){
+ return d.getFullYear()+"-"+
+ String(d.getMonth()+1).padStart(2,"0")+"-"+
+ String(d.getDate()).padStart(2,"0");
+}
+function matches(date,category){
  return events.filter(e=>
-  e.start<=date &&
-  e.end>=date &&
+  e.start<=date&&e.end>=date&&
   (!category||e.category===category)
  );
 }
-
+function syncSelects(){
+ const y=$("yearSelect"),m=$("monthSelect");
+ y.innerHTML="";
+ for(let year=today.getFullYear()-2;year<=today.getFullYear()+5;year++){
+  const o=document.createElement("option");
+  o.value=year;
+  o.textContent=year+"년";
+  y.append(o);
+ }
+ m.innerHTML="";
+ for(let i=1;i<=12;i++){
+  const o=document.createElement("option");
+  o.value=i-1;
+  o.textContent=i+"월";
+  m.append(o);
+ }
+ y.value=selectedDate.getFullYear();
+ m.value=selectedDate.getMonth();
+}
 function render(){
- const start=monday(current);
- const end=new Date(start);
- end.setDate(start.getDate()+6);
+ syncSelects();
+ const end=addDays(weekStart,6);
+ $("range").textContent=
+ (weekStart.getMonth()+1)+"/"+weekStart.getDate()+
+ " ~ "+(end.getMonth()+1)+"/"+end.getDate();
 
- document.getElementById("range").textContent=
- (start.getMonth()+1)+"/"+start.getDate()+
- " ~ "+
- (end.getMonth()+1)+"/"+end.getDate();
-
- const container=document.getElementById("week");
- container.innerHTML="";
+ const grid=$("week");
+ grid.replaceChildren();
 
  for(let i=0;i<7;i++){
-  const d=new Date(start);
-  d.setDate(start.getDate()+i);
-
-  const key=dateKey(d);
+  const d=addDays(weekStart,i);
+  const date=key(d);
   const cell=document.createElement("div");
-
   cell.className="day";
-  if(key===dateKey(today))cell.classList.add("today");
-  if(d.getMonth()!==initialMonth)cell.classList.add("outside");
+  cell.setAttribute("role","button");
+  cell.tabIndex=0;
+  cell.setAttribute("aria-label",date+" 전체 팝업 보기");
 
-  const dayname=document.createElement("div");
-  dayname.className="dayname";
-  dayname.textContent=weekdays[d.getDay()];
+  if(date===key(today))cell.classList.add("today");
+  if(date===key(selectedDate))cell.classList.add("selected");
+  if(d.getMonth()!==selectedDate.getMonth())cell.classList.add("outside");
+
+  const name=document.createElement("div");
+  name.className="dayname";
+  name.textContent=["일","월","화","수","목","금","토"][d.getDay()];
 
   const number=document.createElement("div");
   number.className="date";
   number.textContent=d.getDate();
+  cell.append(name,number);
 
-  cell.append(dayname,number);
+  const choose=()=>{
+   selectedDate=new Date(d);
+   render();
+   show(date,null);
+  };
+  cell.addEventListener("click",choose);
+  cell.addEventListener("keydown",e=>{
+   if(e.key==="Enter"||e.key===" "){
+    e.preventDefault();
+    choose();
+   }
+  });
 
-  if(d.getMonth()===initialMonth){
-   Object.keys(categories).forEach(id=>{
-    if(active(key,id).length>0){
-     const btn=document.createElement("button");
-     btn.className="cat "+categories[id].css;
-     btn.textContent=categories[id].name;
-     btn.onclick=()=>show(key,id);
-     cell.appendChild(btn);
-    }
-   });
+  for(const id of Object.keys(categories)){
+   if(matches(date,id).length){
+    const b=document.createElement("button");
+    b.className="cat "+categories[id].css;
+    b.textContent=categories[id].name;
+    b.addEventListener("click",e=>{
+     e.stopPropagation();
+     selectedDate=new Date(d);
+     render();
+     show(date,id);
+    });
+    cell.append(b);
+   }
   }
-
-  container.appendChild(cell);
+  grid.append(cell);
  }
-
- const previous=new Date(current);
- previous.setDate(previous.getDate()-7);
-
- const next=new Date(current);
- next.setDate(next.getDate()+7);
-
- document.getElementById("prev").disabled=
- previous.getMonth()!==initialMonth;
-
- document.getElementById("next").disabled=
- next.getMonth()!==initialMonth;
 }
-
-function move(direction){
- const next=new Date(current);
- next.setDate(next.getDate()+direction*7);
-
- if(next.getFullYear()!==initialYear ||
-    next.getMonth()!==initialMonth)return;
-
- current=next;
- render();
-}
-
 function show(date,category){
- const list=active(date,category);
- const selected=document.getElementById("selected");
- const result=document.getElementById("results");
+ const list=matches(date,category);
+ $("selectedTitle").textContent=
+ Number(date.slice(5,7))+"월 "+
+ Number(date.slice(8,10))+"일 · "+
+ (category?categories[category].name:"전체 팝업");
 
- selected.textContent=
- date.slice(5,7)+"월 "+
- date.slice(8,10)+"일 · "+
- categories[category].name;
+ const root=$("results");
+ root.replaceChildren();
+ root.className="";
 
- result.innerHTML="";
- result.className="";
-
- list.forEach(e=>{
+ if(!list.length){
+  root.className="empty";
+  root.textContent="등록된 팝업이 없습니다.";
+ }
+ for(const e of list){
   const item=document.createElement("div");
   item.className="item";
+  const h=document.createElement("h3");
+  h.textContent=e.name;
+  item.append(h);
 
-  const title=document.createElement("h3");
-  title.textContent=e.name;
-
-  const place=document.createElement("p");
-  place.textContent="📍 "+e.place;
-
-  const period=document.createElement("p");
-  period.textContent="📅 "+e.start+" ~ "+e.end;
-
-  const desc=document.createElement("p");
-  desc.textContent=e.description;
-
-  item.append(title,place,period,desc);
-
-  if(e.url){
-   const link=document.createElement("a");
-   link.className="link";
-   link.href=e.url;
-   link.target="_blank";
-   link.rel="noopener noreferrer";
-   link.textContent="행사 정보 보러가기 →";
-   item.appendChild(link);
+  for(const s of [
+   "📍 "+e.place,
+   "📅 "+e.start+" ~ "+e.end,
+   e.description
+  ]){
+   const p=document.createElement("p");
+   p.textContent=s;
+   item.append(p);
   }
 
-  result.appendChild(item);
+  if(e.url){
+   const a=document.createElement("a");
+   a.className="link";
+   a.href=e.url;
+   a.target="_blank";
+   a.rel="noopener noreferrer";
+   a.textContent="행사 정보 보러가기 →";
+   item.append(a);
+  }
+  root.append(item);
+ }
+ $("detail").scrollIntoView({
+  behavior:"smooth",block:"start"
  });
-
- document.getElementById("detail")
- .scrollIntoView({behavior:"smooth",block:"start"});
 }
 
+$("prev").addEventListener("click",()=>{
+ weekStart=addDays(weekStart,-7);
+ selectedDate=new Date(weekStart);
+ render();
+});
+$("next").addEventListener("click",()=>{
+ weekStart=addDays(weekStart,7);
+ selectedDate=new Date(weekStart);
+ render();
+});
+function jump(){
+ selectedDate=new Date(
+  Number($("yearSelect").value),
+  Number($("monthSelect").value),1,12
+ );
+ weekStart=monday(selectedDate);
+ render();
+}
+$("yearSelect").addEventListener("change",jump);
+$("monthSelect").addEventListener("change",jump);
+$("goToday").addEventListener("click",()=>{
+ selectedDate=new Date(today);
+ weekStart=monday(today);
+ render();
+ show(key(today),null);
+});
 render();
 </script>
 </body>

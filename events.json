@@ -229,5 +229,26 @@
     "description": "쇼핑몰 · 캐릭터 굿즈",
     "url": "https://www.instagram.com/p/DfUkT_BAUP0/",
     "blogUrl": ""
-  }
+  },
+{
+  "name": "더현대 서울 크리스마스 H빌리지",
+  "category": "life",
+  "start": "2026-11-10",
+  "end": "2026-12-31",
+  "place": "서울 영등포구 여의대로 108, 더현대 서울 5층 사운즈 포레스트",
+  "description": "여의도 · 뉴욕 크리스마스 테마 공간 · 무료입장 · 사전예약 및 현장 대기 · 11/26, 12/18 미운영",
+  "url": "https://hi.thehyundai.com/contents/780956",
+  "blogUrl": ""
+},
+{
+  "name": "도쿄 리벤저스 마이키마트",
+  "category": "goods",
+  "start": "2026-11-23",
+  "end": "2026-12-06",
+  "place": "서울 마포구 양화로 188, AK플라자 홍대 3층",
+  "description": "홍대 · 도쿄 리벤저스 공식 굿즈 팝업 · 사전예약 안내 확인 필요",
+  "url": "https://www.mt.co.kr/amp/culture/2026/11/05/2026110514211218843",
+  "blogUrl": ""
+}
+
 ]

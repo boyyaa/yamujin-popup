@@ -422,20 +422,25 @@ function show(date,category){
   item.append(h);
 
   
+
 if(e.place && e.place.trim()){
   const p=document.createElement("p");
-  p.textContent="📍 "+e.place;
-  item.append(p);
 
   const mapLink=document.createElement("a");
-  mapLink.className="link secondary";
   mapLink.href="https://map.naver.com/p/search/"+
     encodeURIComponent(e.place.trim());
   mapLink.target="_blank";
   mapLink.rel="noopener noreferrer";
-  mapLink.textContent="🗺️ 네이버지도 보기 ↗";
-  item.append(mapLink);
+  mapLink.textContent="📍 "+e.place;
+
+  mapLink.style.color="#647469";
+mapLink.style.textDecoration="none";
+mapLink.style.cursor="pointer";
+ 
+  p.append(mapLink);
+  item.append(p);
 }
+
 
 for(const line of [
   "📅 "+e.start+" ~ "+e.end,

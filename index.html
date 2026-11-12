@@ -421,16 +421,32 @@ function show(date,category){
   h.textContent=e.name;
   item.append(h);
 
-  for(const line of [
-   "📍 "+e.place,
-   "📅 "+e.start+" ~ "+e.end,
-   e.description || ""
-  ]){
-   if(!line)continue;
-   const p=document.createElement("p");
-   p.textContent=line;
-   item.append(p);
-  }
+  
+if(e.place && e.place.trim()){
+  const p=document.createElement("p");
+  p.textContent="📍 "+e.place;
+  item.append(p);
+
+  const mapLink=document.createElement("a");
+  mapLink.className="link secondary";
+  mapLink.href="https://map.naver.com/p/search/"+
+    encodeURIComponent(e.place.trim());
+  mapLink.target="_blank";
+  mapLink.rel="noopener noreferrer";
+  mapLink.textContent="🗺️ 네이버지도 보기 ↗";
+  item.append(mapLink);
+}
+
+for(const line of [
+  "📅 "+e.start+" ~ "+e.end,
+  e.description || ""
+]){
+  if(!line)continue;
+  const p=document.createElement("p");
+  p.textContent=line;
+  item.append(p);
+}
+
 
   if(e.url){
    const a=document.createElement("a");

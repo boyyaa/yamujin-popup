@@ -428,7 +428,7 @@ if(e.place && e.place.trim()){
 
   const mapLink=document.createElement("a");
   mapLink.href="https://map.naver.com/p/search/"+
-    encodeURIComponent(e.place.trim());
+  encodeURIComponent((e.mapQuery || e.place).trim());
   mapLink.target="_blank";
   mapLink.rel="noopener noreferrer";
   mapLink.textContent="📍 "+e.place;

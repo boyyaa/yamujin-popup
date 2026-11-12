@@ -7,7 +7,9 @@
     "place": "서울 성동구 성수이로 77",
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://spotts.kr/f/popup-2026-fra422-seongsu",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "APAP 작품투어 (안양공공예술프로젝트)",
@@ -17,7 +19,9 @@
     "place": "경기 안양시 만안구 예술공원로 180, 안양파빌리온",
     "description": "지역 전시",
     "url": "https://spotts.kr/f/local-2026-anyang-apap-art-tour",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "안양시 만안구"
   },
   {
     "name": "컬처라운지 경기, 장(場)",
@@ -27,7 +31,9 @@
     "place": "경기 수원시 광교 경기융합타운 경기도서관 옆, 컬처라운지 경기 장",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1589272",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "수원시"
   },
   {
     "name": "신라면 분식",
@@ -37,7 +43,9 @@
     "place": "서울 성동구 성수일로4길 52",
     "description": "성수 · 농심 브랜드 체험 공간",
     "url": "https://mobile.newsis.com/view/NISX20260612_0003667317",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "과천관 40주년 프로젝트: 빛의 상상들",
@@ -48,7 +56,9 @@
     "description": "특별전",
     "url": "https://spotts.kr/f/exhibition-2026-mmca-gwacheon-40th-light",
     "blogUrl": "",
-    "mapQuery": "국립현대미술관 과천"
+    "mapQuery": "국립현대미술관 과천",
+    "region": "경기",
+    "district": "과천시"
   },
   {
     "name": "토리든 커넥트 성수 「CONNECT DEEP DIVE」",
@@ -58,7 +68,9 @@
     "place": "토리든 커넥트 성수",
     "description": "브랜드 체험관(뷰티)",
     "url": "https://spotts.kr/f/popup-2026-torriden-connect-seongsu",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "명탐정 코난전 @ AK PLAZA 홍대",
@@ -68,7 +80,9 @@
     "place": "AK PLAZA 홍대",
     "description": "전시(애니메이션)",
     "url": "https://duckcal.net/event/detective-conan-exhibition-seoul-2026",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "마포구 홍대"
   },
   {
     "name": "바샤커피 Pop-Up Open",
@@ -78,7 +92,9 @@
     "place": "롯데프리미엄아울렛 의왕점",
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://spotts.kr/f/popup-2026-bacha-coffee",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "의왕시"
   },
   {
     "name": "드래곤볼 히어로즈 라이즈",
@@ -88,7 +104,9 @@
     "place": "서울 성동구 뚝섬로 403",
     "description": "성수 · 드래곤볼 체험 전시 및 굿즈",
     "url": "https://be-mill.com/products/view/LWERIWZIVU",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구"
   },
   {
     "name": "《빛나는 순간들 : 경기도박물관 30년 이야기》",
@@ -98,7 +116,9 @@
     "place": "경기도박물관 전시마루",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.sankyungilbo.com/news/articleView.html?idxno=528563",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "용인시 기흥구"
   },
   {
     "name": "라클라우드 바디프랜드 뉴 헬스모션 출시 팝업",
@@ -108,7 +128,9 @@
     "place": "롯데아울렛 고양점",
     "description": "브랜드·행사",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000555476",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시"
   },
   {
     "name": "큐슈울트라아멘 일본 라멘 Pop-Up",
@@ -118,7 +140,9 @@
     "place": "롯데프리미엄 아울렛 기흥점",
     "description": "브랜드·식품 팝업",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000542334",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "용인시 기흥구"
   },
   {
     "name": "피레넥스 팝업스토어 — 스타필드 하남",
@@ -128,7 +152,9 @@
     "place": "스타필드 하남",
     "description": "행사 홍보 안내를 확인하세요.",
     "url": "https://www.instagram.com/p/DdauAyKo9fX/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "하남시"
   },
   {
     "name": "PLAY IN THE BOX 성수 팝업",
@@ -138,7 +164,9 @@
     "place": "서울 성동구 연무장길 27",
     "description": "브랜드 팝업",
     "url": "https://spotts.kr/f/popup-2026-play-in-the-box-seongsu",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "스파오키즈 캐릭터 콜라보 팝업",
@@ -149,7 +177,9 @@
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000557613",
     "blogUrl": "",
-    "mapQuery": "롯데몰 수지점"
+    "mapQuery": "롯데몰 수지점",
+    "region": "경기",
+    "district": "용인시 수지구"
   },
   {
     "name": "귀신사바 귀신놀이",
@@ -159,7 +189,9 @@
     "place": "한국민속촌",
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://spotts.kr/f/local-2026-yongin-folk-village-ghost-play",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "용인시 기흥구"
   },
   {
     "name": "블러드시티 제로 : 지옥의 문",
@@ -169,7 +201,9 @@
     "place": "경기 용인시 처인구 포곡읍 에버랜드로 199, 에버랜드 블러드시티",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.witheverland.com/427873",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "용인시 처인구"
   },
   {
     "name": "앤커 팝업 스토어 @ 롯데백화점 건대스타시티점",
@@ -180,7 +214,9 @@
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://www.ilovepc.co.kr/news/articleView.html?idxno=60662",
     "blogUrl": "",
-    "mapQuery": "롯데백화점 건대스타시티점"
+    "mapQuery": "롯데백화점 건대스타시티점",
+    "region": "서울",
+    "district": "광진구 건대"
   },
   {
     "name": "SKT T팩토리 Emotion Lab",
@@ -190,7 +226,9 @@
     "place": "서울 성동구 연무장1길 7-1",
     "description": "성수 · 감정 데이터 체험 전시",
     "url": "https://news.sktelecom.com/230994",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "트래드후스 불라디 메리제인 POP-UP",
@@ -200,7 +238,9 @@
     "place": "롯데프리미엄 아울렛 의왕점",
     "description": "브랜드·식품 팝업",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000559998",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "의왕시"
   },
   {
     "name": "렌시스 in 캐치렌즈 성수 팝업",
@@ -210,7 +250,9 @@
     "place": "캐치렌즈 성수",
     "description": "브랜드 팝업",
     "url": "https://spotts.kr/f/popup-2026-lenssis-catch-lens-seongsu",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "POP-UP STAGE 오얏리",
@@ -220,7 +262,9 @@
     "place": "현대백화점 압구정본점",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40269",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "강남구 압구정"
   },
   {
     "name": "롱테이크 X 올리브영 뷰티 맨션",
@@ -230,7 +274,9 @@
     "place": "서울 성동구 성수이로 108",
     "description": "성수 · 뷰티 브랜드 협업",
     "url": "https://www.instagram.com/longtake_official/p/DeynGn6E1l_/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "어그부츠 Pop-Up",
@@ -241,7 +287,9 @@
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000560428",
     "blogUrl": "",
-    "mapQuery": "롯데몰 수지점"
+    "mapQuery": "롯데몰 수지점",
+    "region": "경기",
+    "district": "용인시 수지구"
   },
   {
     "name": "츄로츄로 스페인 정통 츄러스 Pop-Up",
@@ -251,7 +299,9 @@
     "place": "롯데프리미엄 아울렛 기흥점",
     "description": "브랜드·식품 팝업",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000561557",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "용인시 기흥구"
   },
   {
     "name": "화담숲 가을 단풍 축제",
@@ -261,7 +311,9 @@
     "place": "화담숲",
     "description": "계절성 행사",
     "url": "https://spotts.kr/f/local-2026-hwadam-forest-autumn",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "광주시 도척면"
   },
   {
     "name": "랩투마스 팝업 스토어 @ 롯데월드몰",
@@ -271,7 +323,9 @@
     "place": "롯데월드몰",
     "description": "브랜드 팝업",
     "url": "https://spotts.kr/f/popup-2026-lab-to-mars-lotte-world-mall",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "송파구 잠실"
   },
   {
     "name": "한컴타자 캐릭터 팝업",
@@ -281,7 +335,9 @@
     "place": "더현대 서울",
     "description": "산성비 게임 콘셉트 팝업.",
     "url": "https://zdnet.co.kr/view/?no=20261011080118",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "영등포구 여의도"
   },
   {
     "name": "52TOYS 팝업 스토어 @ 용산 아이파크몰",
@@ -291,7 +347,9 @@
     "place": "용산 아이파크몰",
     "description": "캐릭터·굿즈 팝업",
     "url": "https://spotts.kr/f/popup-2026-52toys-ipark-yongsan",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "용산구"
   },
   {
     "name": "맥케이지 Pop-Up 신규 Open",
@@ -301,7 +359,9 @@
     "place": "",
     "description": "행사 홍보 안내를 확인하세요.",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000565576",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "",
+    "district": ""
   },
   {
     "name": "갤러리티 이정용 Beyond the Surface",
@@ -311,7 +371,9 @@
     "place": "롯데백화점 동탄점",
     "description": "브랜드·식품 팝업",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000563256",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "화성시 동탄"
   },
   {
     "name": "2026 DMZ OPEN 페스티벌",
@@ -321,7 +383,9 @@
     "place": "파주 임진각 평화누리·캠프그리브스 / 고양아람누리 / 소노캄 고양 (프로그램별 상이)",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://dmz.gg.go.kr/dmz/bbs/boardView.do?bIdx=112907&bsIdx=1&menuId=53",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시 일산동구"
   },
   {
     "name": "EVANGELION Light＆Shadow POP-UP STORE",
@@ -331,7 +395,9 @@
     "place": "경기 수원시 팔달구 덕영대로 924, AK플라자 수원 5층 SMG STORE",
     "description": "행사 홍보 안내를 확인하세요.",
     "url": "https://spotts.kr/f/popup-2026-evangelion-light-shadow-ak-plaza-suwon",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "수원시 팔달구"
   },
   {
     "name": "에반게리온 Light&Shadow 팝업스토어",
@@ -341,7 +407,9 @@
     "place": "경기 수원시 팔달구 덕영대로 924, AK플라자 수원 5층 SMG STORE",
     "description": "캐릭터 팝업",
     "url": "https://spotts.kr/f/popup-2026-evangelion-light-shadow-ak-plaza-suwon",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "수원시 팔달구"
   },
   {
     "name": "유지 YUZY 뷰티 팝업",
@@ -351,7 +419,9 @@
     "place": "서울 서대문구 연세로 13, 현대백화점 신촌점 U-PLEX 5층",
     "description": "백화점 · 뷰티페스타 팝업",
     "url": "https://www.instagram.com/p/DejJRRjk37c/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "서대문구"
   },
   {
     "name": "짱구는 못말려 시공간 대모험",
@@ -361,7 +431,9 @@
     "place": "서울 성동구 연무장5길 9-13",
     "description": "성수 · 체험형 전시 및 굿즈",
     "url": "https://be-mill.com/products/view/AK9G084N1H",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "자코모 리퍼브 팝업스토어",
@@ -371,7 +443,9 @@
     "place": "롯데쇼핑몰 광명점",
     "description": "브랜드·식품 팝업",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000488574",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "광명시"
   },
   {
     "name": "베이비블리 귀염뽀짝 유아동 팝업",
@@ -381,7 +455,9 @@
     "place": "롯데프리미엄 아울렛 의왕점",
     "description": "브랜드·식품 팝업",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000567003",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "의왕시"
   },
   {
     "name": "올기 팝업",
@@ -391,7 +467,9 @@
     "place": "서울 영등포구 여의대로 108, 더현대 서울 B1 식품관",
     "description": "여의도 · 식품 팝업 · 공식 일정 확인 필요",
     "url": "https://spotts.kr/f/popup-2026-olgi-thehyundai-seoul",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "영등포구 여의도"
   },
   {
     "name": "어그 팝업 (중동점)",
@@ -401,7 +479,9 @@
     "place": "중동점",
     "description": "브랜드 팝업",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00143000&evntCrdCd=E4302610510558",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "부천시 중동"
   },
   {
     "name": "픽스피자 팝업",
@@ -411,7 +491,9 @@
     "place": "서울 성동구 연무장길 5-9",
     "description": "성수 · 피자 브랜드 팝업",
     "url": "https://pickspizza.com/article/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/1/18/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "제41회 어린이그림대회 내가 만난 예술 수상작 전시",
@@ -421,7 +503,9 @@
     "place": "현대프리미엄아울렛 SPACE1 A관 3층",
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00140000&category=event&evntCrdCd=E1102610510300&page=1",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "남양주시 다산"
   },
   {
     "name": "플르부아 X 헬로키티",
@@ -431,7 +515,9 @@
     "place": "서울 성동구 연무장길 7-1",
     "description": "성수 · 브랜드 협업 팝업",
     "url": "https://www.instagram.com/p/DetzEFMAl4_/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "아로코 팝업",
@@ -441,7 +527,9 @@
     "place": "현대백화점 무역센터점 2층 팝업 스튜디오",
     "description": "브랜드 팝업(뷰티)",
     "url": "https://spotts.kr/f/popup-2026-aroko-hyundai-trade-center",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "강남구 삼성동"
   },
   {
     "name": "아이돈워너셀 팝업",
@@ -451,7 +539,9 @@
     "place": "무신사 메가스토어 용산 팝업존",
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://spotts.kr/f/popup-2026-idws-yongsan",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "용산구"
   },
   {
     "name": "POP-UP 할리데이비슨 컬렉션스 ②",
@@ -461,7 +551,9 @@
     "place": "경기 고양시 일산서구 호수로 817, 현대백화점 킨텍스점 4층 팝업존",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://dayforyou.com/getDetail?scheduleSeq=40262",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "레벨투 팝업",
@@ -471,7 +563,9 @@
     "place": "중동점 WEST 3층 본매장",
     "description": "브랜드 팝업",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40278",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "부천시 중동"
   },
   {
     "name": "리바이포유 10주년 팝업",
@@ -481,7 +575,9 @@
     "place": "서울 성동구 연무장길 65",
     "description": "10주년 기념 체험 팝업.",
     "url": "https://letter.wepick.kr/post/26625",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "시티지 시즌 팝업",
@@ -491,7 +587,9 @@
     "place": "롯데백화점 구리점",
     "description": "브랜드·식품 팝업",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000569345",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "구리시"
   },
   {
     "name": "경기도미술관 20주년 특별전 《사랑노동아시아하기》",
@@ -501,7 +599,9 @@
     "place": "경기도미술관",
     "description": "특별전",
     "url": "https://gmoma.ggcf.kr/exhibitions/208",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "안산시 단원구"
   },
   {
     "name": "노이즈 팝업",
@@ -511,7 +611,9 @@
     "place": "중동점 WEST 4층 본매장",
     "description": "브랜드 팝업",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00143000&evntCrdCd=E4302610512843",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "부천시 중동"
   },
   {
     "name": "단석가 찰보리빵 데이",
@@ -521,7 +623,9 @@
     "place": "스타필드마켓 죽전점",
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://popupnow.plentyer.com/p/단석가-찰보리빵-데이/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "용인시 수지구"
   },
   {
     "name": "보드라이더스 스키 Pop-Up",
@@ -531,7 +635,9 @@
     "place": "롯데프리미엄 아울렛 기흥점",
     "description": "브랜드·식품 팝업",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000567215",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "용인시 기흥구"
   },
   {
     "name": "에드워드맥스 팝업",
@@ -541,7 +647,9 @@
     "place": "경기 성남시 분당구 판교역로146번길 20, 현대백화점 판교점 7층",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://dayforyou.com/getDetail?scheduleSeq=40308",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "키즈망고 팝업",
@@ -551,7 +659,9 @@
     "place": "경기 고양시 일산서구 호수로 817, 현대백화점 킨텍스점 5층",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://dayforyou.com/getDetail?scheduleSeq=40322",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "피레넥스(PYRENEX) 팝업 (판교점)",
@@ -561,7 +671,9 @@
     "place": "판교점 7층 폴로 앞",
     "description": "브랜드 팝업",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00148000&evntCrdCd=E4802610512198",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "루이스폴센 팝업",
@@ -571,7 +683,9 @@
     "place": "현대백화점 무역센터점 4층 팝업스튜디오 B",
     "description": "브랜드 팝업",
     "url": "https://spotts.kr/f/popup-2026-louis-poulsen-hyundai-trade-center",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "강남구 삼성동"
   },
   {
     "name": "리쥬비 팝업",
@@ -581,7 +695,9 @@
     "place": "서울 성동구 성수이로 75",
     "description": "성수 · 뷰티 브랜드 팝업",
     "url": "https://www.instagram.com/p/DfHKvd5opwK/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "맥클래즈 팝업스토어",
@@ -591,7 +707,9 @@
     "place": "현대백화점 압구정본점 4층 POP STAGE",
     "description": "브랜드 팝업",
     "url": "https://spotts.kr/f/popup-2026-meclads-hyundai-apgujeong",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "강남구 압구정"
   },
   {
     "name": "미니도우 팝업 (판교)",
@@ -601,7 +719,9 @@
     "place": "현대백화점 판교점",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40287",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "버터샵 팝업",
@@ -611,7 +731,9 @@
     "place": "서울 성동구 연무장길 57",
     "description": "성수 · 캐릭터 및 라이프스타일 굿즈",
     "url": "https://www.instagram.com/butter_insta/p/De_X6FWjwnY/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "불가리 비제로원 팝업",
@@ -621,7 +743,9 @@
     "place": "롯데백화점 잠실점 지하 1층 더크라운",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40413",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "송파구 잠실"
   },
   {
     "name": "슬렙트 프리미엄숙면 블렌딩 Pop-Up",
@@ -631,7 +755,9 @@
     "place": "롯데백화점 중동점",
     "description": "브랜드 팝업",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000568524",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "부천시 중동"
   },
   {
     "name": "신세계백화점 강남 홀리데이 마켓",
@@ -641,7 +767,9 @@
     "place": "신세계백화점 강남",
     "description": "계절성 마켓",
     "url": "https://www.instagram.com/p/DfGqimoTfLP/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "서초구 반포"
   },
   {
     "name": "아메스 월드와이드 WINTER POP-UP",
@@ -651,7 +779,9 @@
     "place": "롯데백화점 본점 9층 키네틱 스테이지 A-2",
     "description": "브랜드 팝업(패션)",
     "url": "https://www.instagram.com/p/DfGyPdmFARA/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "중구 명동"
   },
   {
     "name": "엘지프리미엄샵 팝업 스토어 GRAND OPEN",
@@ -661,7 +791,9 @@
     "place": "킨텍스점 8층 엘지프리미엄스토어",
     "description": "브랜드·행사",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00145000&evntCrdCd=E4502610512364",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "작은미술관 백화제방 개인전",
@@ -671,7 +803,9 @@
     "place": "스타필드 하남",
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://spotts.kr/f/popup-2026-baekhwajeibang-art-exhibition-starfield-hanam",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "하남시"
   },
   {
     "name": "기억은 오늘도 자란다 展",
@@ -681,7 +815,9 @@
     "place": "경기 수원시 장안구 수성로 175, 스타필드 수원 지하 3층 D홀 작은미술관",
     "description": "행사 홍보 안내를 확인하세요.",
     "url": "https://starfield.co.kr/suwon/eventBenefit/events/EV202611031602173196",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "수원시 장안구"
   },
   {
     "name": "요시다 포터 90주년 전시",
@@ -691,7 +827,9 @@
     "place": "서울 송파구 올림픽로 300, 롯데 에비뉴엘 잠실점 6층",
     "description": "잠실 · 기념 전시 · 공식 일정 확인 필요",
     "url": "https://korea.shop-porter.com/journal/view.asp?ct=&no=1324",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "송파구"
   },
   {
     "name": "닥터엘시아 345 시크릿 프로젝트",
@@ -701,7 +839,9 @@
     "place": "서울 성동구 성수이로 108",
     "description": "성수 · 뷰티 체험 팝업",
     "url": "https://www.instagram.com/p/DfM5aUTmEKf/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "에트오소메 팝업",
@@ -711,7 +851,9 @@
     "place": "서울 성동구 성수이로 74",
     "description": "성수 · 패션 브랜드 팝업",
     "url": "https://www.instagram.com/p/DfL6sTRBnO-/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "치플레 치즈케이크 Pop-Up",
@@ -721,7 +863,9 @@
     "place": "롯데프리미엄 아울렛 기흥점",
     "description": "브랜드·식품 팝업",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000568228",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "용인시 기흥구"
   },
   {
     "name": "코뮨 신규 팝업",
@@ -731,7 +875,9 @@
     "place": "신세계 사우스시티 6층",
     "description": "브랜드·식품 팝업",
     "url": "https://www.shinsegae.com/shopping/view.do?contentDtlCd=01&contentId=8670468&mainCd=02&pageLink=/cms12/SC00007/info/shopping/brndsingle/8670468_4534.txt&storeCd=SC00007",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "용인시 수지구"
   },
   {
     "name": "쿨키튼 Pop-Up",
@@ -741,7 +887,9 @@
     "place": "롯데몰 수지점 3층",
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000568396",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "용인시 수지구"
   },
   {
     "name": "통영메이드 & 옹브로스 팝업스토어",
@@ -751,7 +899,9 @@
     "place": "서울 종로구 종로32길 21",
     "description": "통영 전통공예와 K-스낵 팝업.",
     "url": "https://heypop.kr/n/145838",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "종로구"
   },
   {
     "name": "가누 창립기념 맞춤 수면 프로모션",
@@ -762,7 +912,9 @@
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://popupnow.plentyer.com/p/창립기념-맞춤-수면-프로모션/",
     "blogUrl": "",
-    "mapQuery": "현대백화점 판교점"
+    "mapQuery": "현대백화점 판교점",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "다이슨 NEW 로봇청소기 론칭",
@@ -773,7 +925,9 @@
     "description": "브랜드 팝업",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00148000&evntCrdCd=E4802611513771",
     "blogUrl": "",
-    "mapQuery": "현대백화점 판교점"
+    "mapQuery": "현대백화점 판교점",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "쉐어러스(SHEARERS) 팝업",
@@ -784,7 +938,9 @@
     "description": "브랜드·행사",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00145000&evntCrdCd=E4502610512753",
     "blogUrl": "",
-    "mapQuery": "현대백화점 킨텍스점"
+    "mapQuery": "현대백화점 킨텍스점",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "아스토믹 IN AK플라자 홍대점",
@@ -794,7 +950,9 @@
     "place": "AK플라자 홍대점",
     "description": "브랜드 팝업",
     "url": "https://spotts.kr/f/popup-2026-astomic-ak-plaza-hongdae",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "마포구 홍대"
   },
   {
     "name": "파나소닉 뷰티 팝업",
@@ -804,7 +962,9 @@
     "place": "경기 성남시 분당구 판교역로146번길 20, 현대백화점 판교점 1층 GATE 4 앞",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40329",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "풀리오(Pulio) 팝업",
@@ -815,7 +975,9 @@
     "description": "브랜드 팝업",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40632",
     "blogUrl": "",
-    "mapQuery": "현대백화점 판교점"
+    "mapQuery": "현대백화점 판교점",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "플로듀 팝업",
@@ -826,7 +988,9 @@
     "description": "브랜드 팝업",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00143000&evntCrdCd=E4302611513538",
     "blogUrl": "",
-    "mapQuery": "현대백화점 중동점"
+    "mapQuery": "현대백화점 중동점",
+    "region": "경기",
+    "district": "부천시 중동"
   },
   {
     "name": "TUDOR Born To Race 팝업",
@@ -836,7 +1000,9 @@
     "place": "현대백화점 판교점 1층 열린광장",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00148000&category=event&evntCrdCd=E4802610512306",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "재혼황후 팝업",
@@ -846,7 +1012,9 @@
     "place": "서울 성동구 아차산로 116",
     "description": "성수 · 콘텐츠 테마 팝업",
     "url": "https://www.instagram.com/p/DfPGnE9j3_Y/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구"
   },
   {
     "name": "MLB키즈 체험형 겨울 팝업 (롯데백화점 동탄점)",
@@ -856,7 +1024,9 @@
     "place": "롯데백화점 동탄점",
     "description": "3개 지점 순회 겨울 아우터 체험 팝업.",
     "url": "https://www.insight.co.kr/news/578586",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "화성시 동탄"
   },
   {
     "name": "다슬 더현대 서울 팝업",
@@ -867,7 +1037,9 @@
     "description": "여의도 · 브랜드 팝업 · 세부 위치 및 운영 조건 확인 필요",
     "url": "https://spotts.kr/f/popup-2026-daseul-thehyundai-seoul",
     "blogUrl": "",
-    "mapQuery": "더현대 서울"
+    "mapQuery": "더현대 서울",
+    "region": "서울",
+    "district": "영등포구 여의도"
   },
   {
     "name": "비디비치 LIGHT IN BLACK",
@@ -877,7 +1049,9 @@
     "place": "서울 강남구 도산대로 442, 하우스 오브 신세계 청담 1층",
     "description": "청담 · 뷰티 팝업 · 방문 조건 확인 필요",
     "url": "https://mobile.newsis.com/view/NISX20261104_0003853792",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "강남구"
   },
   {
     "name": "시드유 팝업스토어",
@@ -888,7 +1062,9 @@
     "description": "여의도 · 브랜드 팝업 · 세부 위치 및 입장 조건 확인 필요",
     "url": "https://spotts.kr/f/popup-2026-seedu-thehyundai-seoul",
     "blogUrl": "",
-    "mapQuery": "더현대 서울"
+    "mapQuery": "더현대 서울",
+    "region": "서울",
+    "district": "영등포구 여의도"
   },
   {
     "name": "타이니빌 슈퍼마켓 팝업",
@@ -899,7 +1075,9 @@
     "description": "쇼핑몰 · 캐릭터 굿즈",
     "url": "https://www.instagram.com/p/DfOYICVkimT/",
     "blogUrl": "",
-    "mapQuery": "롯데몰 김포공항점"
+    "mapQuery": "롯데몰 김포공항점",
+    "region": "서울",
+    "district": "강서구"
   },
   {
     "name": "토코보 X 무신사 뷰티",
@@ -909,7 +1087,9 @@
     "place": "서울 성동구 연무장길 81",
     "description": "성수 · 젤리 팩 팩토리",
     "url": "https://www.instagram.com/p/DfTcN71FIGx/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "헤오르에뚜알 팝업",
@@ -920,7 +1100,9 @@
     "description": "여의도 · 브랜드 팝업 · 세부 위치 및 운영 조건 확인 필요",
     "url": "https://www.nolmap.kr/popup/1005144",
     "blogUrl": "",
-    "mapQuery": "더현대 서울"
+    "mapQuery": "더현대 서울",
+    "region": "서울",
+    "district": "영등포구 여의도"
   },
   {
     "name": "힐링스쿱 First Scoop",
@@ -930,7 +1112,9 @@
     "place": "서울 영등포구 여의대로 108, 더현대 서울 5층 팝업 스튜디오",
     "description": "행사 홍보 안내를 확인하세요.",
     "url": "https://www.instagram.com/p/DfB2eFto_H6/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "영등포구 여의도"
   },
   {
     "name": "CIVVIS POP UP IN SEONGSU",
@@ -940,7 +1124,9 @@
     "place": "서울 성동구 연무장길 37-21, 더얀 XYZ 성수",
     "description": "브랜드 팝업",
     "url": "https://www.instagram.com/reel/Dfb2a4_iRL4/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "Peak Performance POP-UP — 더현대 서울",
@@ -950,7 +1136,9 @@
     "place": "서울 영등포구 여의대로 108, 더현대 서울 4층",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://eungdoit.com/popups/62f775b7-96df-43eb-8412-84634e6df02b",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "영등포구 여의도"
   },
   {
     "name": "UGG 성수 팝업",
@@ -960,7 +1148,9 @@
     "place": "서울 성동구 연무장7길 16",
     "description": "성수 · 패션 브랜드 팝업",
     "url": "https://www.instagram.com/p/DfV6LBUD0Aa/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "XYZ UNBOXING",
@@ -970,7 +1160,9 @@
     "place": "서울 성동구 연무장길 37-21",
     "description": "성수 · 라이프스타일 팝업",
     "url": "https://www.instagram.com/p/DfEnRrxS0uH/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "러프사이드 화이트라벨 팝업",
@@ -981,7 +1173,9 @@
     "description": "브랜드 팝업",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00148000&evntCrdCd=E4802611513716",
     "blogUrl": "",
-    "mapQuery": "현대백화점 판교점"
+    "mapQuery": "현대백화점 판교점",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "롱샴 마이 플리아쥬 팝업",
@@ -992,7 +1186,9 @@
     "description": "여의도 · 브랜드 팝업 · 일정 수집처 기준, 공식 확인 필요",
     "url": "https://www.longchamp.com/kr/ko/maison-longchamp/%EC%97%90%EB%94%94%ED%86%A0%EB%A6%AC%EC%96%BC/my-pliagepop-up.html",
     "blogUrl": "",
-    "mapQuery": "더현대 서울"
+    "mapQuery": "더현대 서울",
+    "region": "서울",
+    "district": "영등포구 여의도"
   },
   {
     "name": "씰리 창립 145주년 특별전",
@@ -1003,7 +1199,9 @@
     "description": "브랜드 팝업",
     "url": "https://dayforyou.com/getDetail?scheduleSeq=40770",
     "blogUrl": "",
-    "mapQuery": "현대백화점 중동점"
+    "mapQuery": "현대백화점 중동점",
+    "region": "경기",
+    "district": "부천시 중동"
   },
   {
     "name": "위클리 팝업 뉴스 행운과 행복을 채우는 한입",
@@ -1014,7 +1212,9 @@
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://popupnow.plentyer.com/p/위클리-팝업-뉴스-행운과-행복을-채우는-한입/",
     "blogUrl": "",
-    "mapQuery": "현대백화점 중동점"
+    "mapQuery": "현대백화점 중동점",
+    "region": "경기",
+    "district": "부천시 중동"
   },
   {
     "name": "정진 개인전 〈곁에 두기 좋은 활자와 그림들〉",
@@ -1024,7 +1224,9 @@
     "place": "서울 용산구 양녕로 445",
     "description": "수채화 원화 전시·판매.",
     "url": "https://heypop.kr/n/145838",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "용산구"
   },
   {
     "name": "쿠쿠 리빙 페스타 팝업스토어",
@@ -1034,7 +1236,9 @@
     "place": "신세계 사우스시티 6층",
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://popupnow.plentyer.com/p/쿠쿠-리빙-페스타-팝업스토어/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "용인시 수지구"
   },
   {
     "name": "HARUKI WORLD in Seoul",
@@ -1044,7 +1248,9 @@
     "place": "서울 성동구 서울숲2길 40-10",
     "description": "무라카미 하루키 신간 기념 팝업.",
     "url": "https://heypop.kr/n/145838",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "POP-UP STAGE 1423 X 크러쉬",
@@ -1055,7 +1261,9 @@
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://dayforyou.com/getDetail?scheduleSeq=40743",
     "blogUrl": "",
-    "mapQuery": "현대백화점 압구정본점"
+    "mapQuery": "현대백화점 압구정본점",
+    "region": "서울",
+    "district": "강남구 압구정"
   },
   {
     "name": "POP-UP STAGE 디어로즈",
@@ -1066,7 +1274,9 @@
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://dayforyou.com/getDetail?scheduleSeq=40744",
     "blogUrl": "",
-    "mapQuery": "현대백화점 압구정본점"
+    "mapQuery": "현대백화점 압구정본점",
+    "region": "서울",
+    "district": "강남구 압구정"
   },
   {
     "name": "POP-UP STAGE 레이리나",
@@ -1077,7 +1287,9 @@
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://dayforyou.com/getDetail?scheduleSeq=40745",
     "blogUrl": "",
-    "mapQuery": "현대백화점 압구정본점"
+    "mapQuery": "현대백화점 압구정본점",
+    "region": "서울",
+    "district": "강남구 압구정"
   },
   {
     "name": "교보문고 x 킨텍스 팝업스토어",
@@ -1088,7 +1300,9 @@
     "description": "브랜드·행사",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00145000&evntCrdCd=E4502611514069",
     "blogUrl": "",
-    "mapQuery": "현대백화점 킨텍스점"
+    "mapQuery": "현대백화점 킨텍스점",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "기장끝집 전복죽 전문점 팝업",
@@ -1099,7 +1313,9 @@
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://spotts.kr/f/popup-2026-kijang-kkeutjip-lotte-mall-suji",
     "blogUrl": "",
-    "mapQuery": "롯데몰 수지점"
+    "mapQuery": "롯데몰 수지점",
+    "region": "경기",
+    "district": "용인시 수지구"
   },
   {
     "name": "나일로라 팝업스토어",
@@ -1110,7 +1326,9 @@
     "description": "브랜드 팝업",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00148000&evntCrdCd=E4802611513387",
     "blogUrl": "",
-    "mapQuery": "현대백화점 판교점"
+    "mapQuery": "현대백화점 판교점",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "룩트 요거트",
@@ -1120,7 +1338,9 @@
     "place": "현대백화점 킨텍스점 지하 1층 식품관",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40871",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "류연희 개인전 〈곁에 두는 금속〉",
@@ -1130,7 +1350,9 @@
     "place": "경기 성남시 수정구 사송로77번길 35",
     "description": "금속공예 개인전.",
     "url": "https://heypop.kr/n/145838",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "성남시 수정구"
   },
   {
     "name": "마스마룰즈 팝업",
@@ -1141,7 +1363,9 @@
     "description": "백화점 · 가방 및 겨울 소품",
     "url": "https://www.instagram.com/p/DfRO_PsTmUt/",
     "blogUrl": "",
-    "mapQuery": "현대백화점 목동점"
+    "mapQuery": "현대백화점 목동점",
+    "region": "서울",
+    "district": "양천구"
   },
   {
     "name": "메다비타 팝업스토어",
@@ -1152,7 +1376,9 @@
     "description": "브랜드 팝업(뷰티)",
     "url": "https://spotts.kr/f/popup-2026-medavita-shinsegae-gangnam",
     "blogUrl": "",
-    "mapQuery": "신세계백화점 강남점"
+    "mapQuery": "신세계백화점 강남점",
+    "region": "서울",
+    "district": "서초구 반포"
   },
   {
     "name": "메이커스 마크 독주 스페이스 팝업스토어",
@@ -1162,7 +1388,9 @@
     "place": "서울 송파구 올림픽로 300, 롯데월드몰 1층 아트리움",
     "description": "행사 홍보 안내를 확인하세요.",
     "url": "https://popply.co.kr/popup/6571",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "송파구"
   },
   {
     "name": "밤앤밀",
@@ -1172,7 +1400,9 @@
     "place": "경기 고양시 일산서구 호수로 817, 현대백화점 킨텍스점 지하 1층 식품 행사장",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40873",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "벨라스톤 팝업 (킨텍스점)",
@@ -1183,7 +1413,9 @@
     "description": "브랜드·행사",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40844",
     "blogUrl": "",
-    "mapQuery": "현대백화점 킨텍스점"
+    "mapQuery": "현대백화점 킨텍스점",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "벨리타앤보이즈 팝업",
@@ -1194,7 +1426,9 @@
     "description": "브랜드 팝업",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40629",
     "blogUrl": "",
-    "mapQuery": "현대백화점 판교점"
+    "mapQuery": "현대백화점 판교점",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "브라운트리 바스크 치즈케이크 Pop-Up",
@@ -1204,7 +1438,9 @@
     "place": "롯데백화점 중동점",
     "description": "브랜드 팝업",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000570231",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "부천시 중동"
   },
   {
     "name": "빼빼로 마음을 전해 DAY",
@@ -1214,7 +1450,9 @@
     "place": "경기 고양시 일산서구 호수로 817, 현대백화점 킨텍스점 지하 1층",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40846",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "샘실떡방 모싯잎 송편 Pop-Up",
@@ -1224,7 +1462,9 @@
     "place": "롯데백화점 중동점",
     "description": "브랜드 팝업",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40463",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "부천시 중동"
   },
   {
     "name": "수제말랑페어",
@@ -1235,7 +1475,9 @@
     "description": "마켓",
     "url": "https://spotts.kr/f/popup-2026-handmade-mallang-fair-ak-hongdae",
     "blogUrl": "",
-    "mapQuery": "AK PLAZA 홍대점"
+    "mapQuery": "AK PLAZA 홍대점",
+    "region": "서울",
+    "district": "마포구 홍대"
   },
   {
     "name": "스컬피그 New Opening",
@@ -1245,7 +1487,9 @@
     "place": "롯데백화점 중동점",
     "description": "브랜드 팝업",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000569894",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "부천시 중동"
   },
   {
     "name": "신지어부가 전복 Pop-Up",
@@ -1255,7 +1499,9 @@
     "place": "롯데백화점 일산점",
     "description": "브랜드·행사",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40465",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시 일산동구"
   },
   {
     "name": "실리언 레일(SYLIAN RAIL) 팝업",
@@ -1265,7 +1511,9 @@
     "place": "서울 성동구 연무장17길 10",
     "description": "첫 오프라인 팝업. 2026 FW 컬렉션.",
     "url": "https://heypop.kr/n/145838",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "올데이스테이 수능데이찹쌀떡 Pop-Up",
@@ -1275,7 +1523,9 @@
     "place": "롯데백화점 중동점",
     "description": "브랜드 팝업",
     "url": "https://www.lotteshopping.com/shpgnews/shpgnewsDetail?shpgNewsNo=SNM00000000000570221",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "부천시 중동"
   },
   {
     "name": "유토피아 간장게장 / 59떡갈비",
@@ -1285,7 +1535,9 @@
     "place": "현대백화점 킨텍스점 지하 1층 식품 행사장",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40874",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "파보에 팝업스토어",
@@ -1295,7 +1547,9 @@
     "place": "AK플라자 분당점",
     "description": "브랜드 팝업",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40628",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "성남시 분당구"
   },
   {
     "name": "헨리코튼키즈 신규런칭 Pop-up",
@@ -1305,7 +1559,9 @@
     "place": "경기 안양시 동안구 시민대로 180, 롯데백화점 평촌점 6층 아동 팝업행사장",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40478",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "안양시 동안구"
   },
   {
     "name": "떡보감 Pop-Up",
@@ -1315,7 +1571,9 @@
     "place": "롯데프리미엄아울렛 이천점",
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://popupnow.plentyer.com/p/떡보감-pop-up-1/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "이천시"
   },
   {
     "name": "FIM'S HOLIDAY EXPRESS POP UP",
@@ -1325,7 +1583,9 @@
     "place": "하이브 용산 사옥",
     "description": "아이돌 팝업",
     "url": "https://weverse.io/lesserafim/notice/40434",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "용산구"
   },
   {
     "name": "로제뒤마땡 팝업",
@@ -1336,7 +1596,9 @@
     "description": "브랜드 팝업",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40769",
     "blogUrl": "",
-    "mapQuery": "현대백화점 중동점"
+    "mapQuery": "현대백화점 중동점",
+    "region": "경기",
+    "district": "부천시 중동"
   },
   {
     "name": "위프코리아 팝업스토어",
@@ -1346,7 +1608,9 @@
     "place": "서울 송파구 올림픽로 300, 롯데월드몰 2층 유니클로 맞은편",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://popupnow.plentyer.com/p/%EC%9C%84%ED%94%84%EC%BD%94%EB%A6%AC%EC%95%84-%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "송파구"
   },
   {
     "name": "이드르르 팝업",
@@ -1357,7 +1621,9 @@
     "description": "브랜드 팝업",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00148000&evntCrdCd=E4802611513820",
     "blogUrl": "",
-    "mapQuery": "현대백화점 판교점"
+    "mapQuery": "현대백화점 판교점",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "Give a Record",
@@ -1367,7 +1633,9 @@
     "place": "서울 성동구 연무장17길 10",
     "description": "성수 · 기록하다, 선물하다",
     "url": "https://www.lcdc-seoul.com/product/detail-event.html?cate_no=25&display_group=1&product_no=536",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "[이세계아이돌] POP-UP",
@@ -1377,7 +1645,9 @@
     "place": "타임스퀘어",
     "description": "아이돌 팝업",
     "url": "https://www.timessquare.co.kr/web/www/event?_kr_co_timessquare_promotion_web_portlet_PromotionPortlet_action=detail&_kr_co_timessquare_promotion_web_portlet_PromotionPortlet_promotionId=4265&p_p_id=kr_co_timessquare_promotion_web_portlet_PromotionPortlet&p_p_lifecycle=0",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "영등포구 영등포동"
   },
   {
     "name": "더현대 서울 크리스마스 H빌리지",
@@ -1388,7 +1658,9 @@
     "description": "여의도 · 크리스마스 테마 공간 · 무료입장 · 예약 안내 확인 · 11/26, 12/18 미운영",
     "url": "https://hi.thehyundai.com/contents/780956",
     "blogUrl": "",
-    "mapQuery": "더현대 서울"
+    "mapQuery": "더현대 서울",
+    "region": "서울",
+    "district": "영등포구 여의도"
   },
   {
     "name": "안녕 자두야 자두와 꼬꼬 팝업",
@@ -1398,7 +1670,9 @@
     "place": "서울 마포구 양화로 188, AK플라자 홍대 2층",
     "description": "쇼핑몰 · 캐릭터 굿즈",
     "url": "https://www.instagram.com/p/DfUkT_BAUP0/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "마포구 홍대"
   },
   {
     "name": "피레넥스 팝업 (압구정본점)",
@@ -1408,7 +1682,9 @@
     "place": "서울 강남구 압구정로 165, 현대백화점 압구정본점 지하 1층 행사장",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://dayforyou.com/getDetail?scheduleSeq=40742",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "강남구 압구"
   },
   {
     "name": "무민 팝업",
@@ -1419,7 +1695,9 @@
     "description": "쇼핑몰 · 무민 캐릭터 팝업",
     "url": "https://www.instagram.com/p/DfO76ZtDLfj/",
     "blogUrl": "",
-    "mapQuery": "롯데월드몰"
+    "mapQuery": "롯데월드몰",
+    "region": "서울",
+    "district": "송파구"
   },
   {
     "name": "블리치 천년혈전편 팝업",
@@ -1429,7 +1707,9 @@
     "place": "서울 광진구 아차산로 272",
     "description": "11:00~20:00. 입장료는 출처에서 추정치로 안내되어 확정하지 않음.",
     "url": "https://www.nolmap.kr/popup/1005505",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "광진구"
   },
   {
     "name": "장인의집·리니베이크·사과당 팝업",
@@ -1439,7 +1719,9 @@
     "place": "서울 영등포구 영중로 15, 타임스퀘어 지하 2층",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://popupnow.plentyer.com/p/%EC%9E%A5%EC%9D%B8%EC%9D%98%EC%A7%91-%EB%A6%AC%EB%8B%88%EB%B2%A0%EC%9D%B4%ED%81%AC-%EC%82%AC%EA%B3%BC%EB%8B%B9/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "영등포구"
   },
   {
     "name": "규현 EP CONTINUE 팝업",
@@ -1450,7 +1732,9 @@
     "description": "백화점 · 앨범 및 공식 MD",
     "url": "https://www.instagram.com/p/DfTw3GSDPsL/",
     "blogUrl": "",
-    "mapQuery": "롯데백화점 잠실점"
+    "mapQuery": "롯데백화점 잠실점",
+    "region": "서울",
+    "district": "송파구"
   },
   {
     "name": "만석닭강정 속초 명물 Pop-Up",
@@ -1460,7 +1744,9 @@
     "place": "서울 강남구 도곡로 401, 롯데백화점 강남점 지하 1층 행사장",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40848",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "강남구"
   },
   {
     "name": "메가쇼 & 트래블쇼 2026 시즌2",
@@ -1470,7 +1756,9 @@
     "place": "킨텍스 제1전시장 2·3·4홀",
     "description": "박람회",
     "url": "https://www.megashow.co.kr/page/index?tpl=sub%2Fmegashow01.html",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "벨라스톤 주얼리 Pop-Up",
@@ -1480,7 +1768,9 @@
     "place": "서울 강북구 도봉로 62, 롯데백화점 미아점 지하 1층 팝업매장",
     "description": "브랜드 팝업",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40976",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "강북구"
   },
   {
     "name": "볼빅 어패럴 Pop-Up Open",
@@ -1490,7 +1780,9 @@
     "place": "롯데백화점 평촌점 6층 AK골프샵 옆 매장",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40978",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "안양시 동안구"
   },
   {
     "name": "비건제이 팝업스토어",
@@ -1501,7 +1793,9 @@
     "description": "브랜드 팝업",
     "url": "https://popupnow.plentyer.com/p/%EB%B9%84%EA%B1%B4%EC%A0%9C%EC%9D%B4-%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4/",
     "blogUrl": "",
-    "mapQuery": "현대백화점 판교점"
+    "mapQuery": "현대백화점 판교점",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "성수 에어포트",
@@ -1511,7 +1805,9 @@
     "place": "mm성수",
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://popupnow.plentyer.com/p/성수-에어포트/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "소주한잔 팝업스토어",
@@ -1522,7 +1818,9 @@
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://popupnow.plentyer.com/p/소주한잔-팝업스토어/",
     "blogUrl": "",
-    "mapQuery": "신세계백화점 강남점"
+    "mapQuery": "신세계백화점 강남점",
+    "region": "서울",
+    "district": "서초구 반포"
   },
   {
     "name": "시오사쿠 소금빵 Pop-Up",
@@ -1532,7 +1830,9 @@
     "place": "롯데백화점 평촌점 지하 1층 행사장",
     "description": "식품 팝업",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40902",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "안양시 동안구"
   },
   {
     "name": "써스데이아일랜드 POP-UP (KiiiKiii 윈터)",
@@ -1542,7 +1842,9 @@
     "place": "롯데백화점 동탄점 지하 1층 행사장 및 3층 본매장",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.dayforyou.com/getDetail?scheduleSeq=40856",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "화성시 동탄"
   },
   {
     "name": "요넥스 여의도 오픈 팝업",
@@ -1553,7 +1855,9 @@
     "description": "브랜드 팝업(스포츠)",
     "url": "https://www.segye.com/newsView/20261104506866",
     "blogUrl": "",
-    "mapQuery": "더현대서울"
+    "mapQuery": "더현대서울",
+    "region": "서울",
+    "district": "영등포구 여의도"
   },
   {
     "name": "진격의 거인 The Final Season 팝업",
@@ -1563,7 +1867,9 @@
     "place": "서울 마포구 양화로 188, AK플라자 홍대 4층",
     "description": "쇼핑몰 · 애니메이션 굿즈",
     "url": "https://www.instagram.com/p/De8EgZ9E7Nj/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "마포구 홍대"
   },
   {
     "name": "진격의 거인 The Final Season 팝업스토어 (경기)",
@@ -1573,7 +1879,9 @@
     "place": "경기 수원시 팔달구 덕영대로 924",
     "description": "캐릭터 팝업",
     "url": "https://spotts.kr/f/popup-2026-attack-on-titan-final-season-suwon",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "수원시 팔달구"
   },
   {
     "name": "화산귀환 팝업 : 피어나자, 화산에서",
@@ -1583,7 +1891,9 @@
     "place": "서울 용산구 한강대로23길 55",
     "description": "캐릭터·웹툰 팝업",
     "url": "https://www.instagram.com/p/DfCD5eXGOtj/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "용산구"
   },
   {
     "name": "LH 씬도시 영화제",
@@ -1593,7 +1903,9 @@
     "place": "코엑스광장 동문 앞",
     "description": "행사 상세 정보와 방문 전 최신 안내는 연결된 홍보 페이지를 확인하세요.",
     "url": "https://www.coex.co.kr/exhibitions/lh-3기-씬도시-영화제/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "강남구 삼성동"
   },
   {
     "name": "고어텍스 50주년 팝업 : OPEN THE CLOSET",
@@ -1603,7 +1915,9 @@
     "place": "서울 성동구 연무장11길 7, 비전모터스",
     "description": "브랜드 팝업",
     "url": "https://www.instagram.com/p/DfPL9jHgGmR/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "서울 나눔바자페스타",
@@ -1613,7 +1927,9 @@
     "place": "충무아트센터",
     "description": "플리마켓",
     "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4117982",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "중구 신당동"
   },
   {
     "name": "에이티즈 단독 팝업스토어",
@@ -1624,7 +1940,9 @@
     "description": "아이돌 팝업",
     "url": "https://web3.newspim.com/news/view/20261108000113",
     "blogUrl": "",
-    "mapQuery": "신세계백화점 강남점"
+    "mapQuery": "신세계백화점 강남점",
+    "region": "서울",
+    "district": "서초구 반포"
   },
   {
     "name": "육구방앗간 팝업",
@@ -1634,7 +1952,9 @@
     "place": "서울 성동구 아차산로 104, 이마트24 트렌드랩 성수점",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.shinsegaegroupnewsroom.com/emart24-yukgu-bangatgan/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "성동구 성수"
   },
   {
     "name": "카비시 X 달빛천사 팝업",
@@ -1644,7 +1964,9 @@
     "place": "서울 마포구 양화로 188, AK플라자 홍대점 1층 팝업존",
     "description": "브랜드 팝업",
     "url": "https://www.instagram.com/p/DfO8nBXGXTf/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "마포구 홍대"
   },
   {
     "name": "2026 포천 펫스타 in 아트밸리",
@@ -1654,7 +1976,9 @@
     "place": "포천아트밸리",
     "description": "지역 행사",
     "url": "https://spotts.kr/f/local-2026-pocheon-petstar",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "포천시"
   },
   {
     "name": "네코비무 2026 고양 서브컬처 페스티벌",
@@ -1664,7 +1988,9 @@
     "place": "일 라페스타 문화의 거리",
     "description": "브랜드·행사",
     "url": "https://popupnow.plentyer.com/p/%EB%84%A4%EC%BD%94%EB%B9%84%EB%AC%B4-2026-%EA%B3%A0%EC%96%91-%EC%84%9C%EB%B8%8C%EC%BB%AC%EC%B2%98-%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시 일산동구"
   },
   {
     "name": "번개 플리마켓 페스티벌",
@@ -1674,7 +2000,9 @@
     "place": "여의도공원 문화의 마당",
     "description": "플리마켓",
     "url": "https://www.asiatime.co.kr/article/20261109500057",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "영등포구 여의도"
   },
   {
     "name": "서울카드페스타 2026",
@@ -1684,7 +2012,9 @@
     "place": "킨텍스 제2전시장 6홀 A",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://seoulcardfesta.com/apply",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "머시온 '작품을 담은 스카프'",
@@ -1695,7 +2025,9 @@
     "description": "브랜드·행사",
     "url": "https://www.ehyundai.com/newPortal/SN/SN_0201000.do?branchCd=B00145000&evntCrdCd=E1102611514176",
     "blogUrl": "",
-    "mapQuery": "현대백화점 킨텍스점"
+    "mapQuery": "현대백화점 킨텍스점",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "MLB키즈 체험형 겨울 팝업 (현대백화점 킨텍스점)",
@@ -1705,7 +2037,9 @@
     "place": "현대백화점 킨텍스점",
     "description": "3개 지점 순회 겨울 아우터 체험 팝업.",
     "url": "https://www.insight.co.kr/news/578586",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "고양시 일산서구"
   },
   {
     "name": "롯데타운 크리스마스 마켓",
@@ -1715,7 +2049,9 @@
     "place": "서울 송파구 올림픽로 300, 롯데월드타워 월드파크 잔디광장",
     "description": "잠실 · 크리스마스 마켓 · 예약 및 운영 조건 확인 필요",
     "url": "https://popnol.co.kr/events/lotte-town-christmas-market-jamsil-2026",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "송파구"
   },
   {
     "name": "언-프린티드 아이디어",
@@ -1726,7 +2062,9 @@
     "description": "전시",
     "url": "https://spotts.kr/f/exhibition-2026-moka-un-printed-ideas",
     "blogUrl": "",
-    "mapQuery": "현대백화점 판교점"
+    "mapQuery": "현대백화점 판교점",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "타네무라 아리나 30주년 X 애니메이트 카페 (홍대)",
@@ -1736,7 +2074,9 @@
     "place": "서울 마포구 양화로 188, AK플라자 홍대점 5층 애니메이트 카페",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://spotts.kr/f/popup-2026-arina-tanemura-30th-animate-cafe-hongdae",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "마포구 홍대"
   },
   {
     "name": "경기미 디저트 페스타 2026",
@@ -1746,7 +2086,9 @@
     "place": "경기 수원시 권선구 세화로134번길 37",
     "description": "11:00~17:00, 무료. 경기미 쌀베이커리·쌀떡볶이·체험 행사.",
     "url": "https://www.nolmap.kr/popup/1000060",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "수원시 권선구"
   },
   {
     "name": "도쿄 리벤저스 마이키마트",
@@ -1756,7 +2098,9 @@
     "place": "서울 마포구 양화로 188, AK플라자 홍대 3층",
     "description": "홍대 · 도쿄 리벤저스 굿즈 팝업 · 네이버 사전예약 안내 확인",
     "url": "https://spotts.kr/f/popup-2026-tokyo-revengers-mikey-mart-ak-hongdae",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "마포구 홍대"
   },
   {
     "name": "씰리침대 팝업스토어",
@@ -1766,7 +2110,9 @@
     "place": "현대백화점 판교점",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://nwww.newsis.com/view/NISX20261102_0003850152",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "경기",
+    "district": "성남시 분당구 판교"
   },
   {
     "name": "신세계백화점 본점 홀리데이 마켓",
@@ -1776,6 +2122,8 @@
     "place": "서울 중구 소공로 63, 신세계백화점 본점",
     "description": "행사별 홍보 안내를 확인하세요.",
     "url": "https://www.shinsegaegroupnewsroom.com/shinsegae-christmas-reveals-landmark-square/",
-    "blogUrl": ""
+    "blogUrl": "",
+    "region": "서울",
+    "district": "중구"
   }
 ]

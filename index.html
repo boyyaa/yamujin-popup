@@ -543,15 +543,16 @@ async function loadEvents(){
   }
 
   const required=[
-   "name","category","start","end","place","url"
-  ];
+ "name","category","start","end","url"
+];
 
   for(const e of data){
    if(!e || typeof e!=="object" ||
       required.some(field=>
        typeof e[field]!=="string" || !e[field].trim()
       ) ||
-      !categories[e.category] ||
+      typeof e.place!=="string" ||
+!categories[e.category] ||
       !/^\d{4}-\d{2}-\d{2}$/.test(e.start) ||
       !/^\d{4}-\d{2}-\d{2}$/.test(e.end) ||
       e.start>e.end ||

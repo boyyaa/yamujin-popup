@@ -2125,5 +2125,17 @@
     "blogUrl": "",
     "region": "서울",
     "district": "중구"
+  },
+  
+  {
+    "name": "NCT DREAM 팝업스토어 WELCOME, DREAMERS",
+    "category": "goods",
+    "start": "2026-11-08",
+    "end": "2026-11-16",
+    "place": "서울 성동구 연무장7길 16 한서빌딩",
+    "description": "NCT DREAM 공식 팝업. 일부 회차 팬클럽 전용, 입장 조건은 공식 공지 확인.",
+    "url": "https://weverse.io/nctdream/notice/40535",
+    "blogUrl": ""
   }
+
 ]
